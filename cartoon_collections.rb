@@ -16,4 +16,3 @@ def list_dwarves(array)
     indexplusone = index + 1
     puts "#{element} at index #{indexplusone}"
 end
-end
