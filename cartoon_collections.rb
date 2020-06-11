@@ -14,7 +14,7 @@ def list_dwarves(array)
   dwarves_array = ["Dopey", "Grumpy", "Bashful"]
   dwarves_array.each_with_index {|element, index|
     indexplusone = index + 1
-    puts "#{element} at index #{indexplusone}"
+    puts " 1.#{indexplusone} #{element}"
   }
 end 
 end
