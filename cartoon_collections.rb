@@ -14,4 +14,4 @@ def list_dwarves(array)
   dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
   dwarves_array.each_with_index { |element, index| p "#{index}.#{element}" }
 end
-end 
+end
