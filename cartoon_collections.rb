@@ -13,6 +13,6 @@ def list_dwarves(array)
   # Print a numbered list of each element
   dwarves_array = ["Dopey", "Grumpy", "Bashful"]
   dwarves_array.each_with_index { |element, index|
-   puts " #{index} #{element}" }
+   puts " #{index} 1 #{element}" }
 end
 end
