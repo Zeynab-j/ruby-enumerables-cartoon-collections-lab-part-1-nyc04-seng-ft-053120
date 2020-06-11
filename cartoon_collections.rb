@@ -12,6 +12,6 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
-  dwarves_array.each_with_index { |element, index| p "#{index}:#{element}" }
+  dwarves_array.each_with_index { |element, index| p "#{index}.#{element}" }
 end
 end 
